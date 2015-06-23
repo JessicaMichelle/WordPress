@@ -1,0 +1,84 @@
+/*
+Theme Name: Codeup
+Theme URI: (Your theme url)
+Author: Jessica
+Author URI: jessicamichelle.github.io
+Description: (Your description)
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: tags, if, for, searching, on, wordpress, if, you, launch, it
+Text Domain: (unique name for your theme, for separation. also used for transalation file)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*----------BORDER BOX----------*/
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*----------ELEMENTS----------*/
+
+body {
+	background-color: #0060BF;
+}
+
+/*----------ID'S----------*/
+
+#sidebar {
+	text-align: left;
+}
+
+/*----------CLASSES----------*/
+
+.entry-content {
+	width: 600px;
+	margin-left: 100px;
+}
+
+.sidebar {
+	top: 0px;
+	right: 10px;
+	width: 300px;
+	background-color: #4D0D0D;
+	color: #FFF;
+	padding: 10px;
+	text-shadow: -1px 0 #00DAF7, 0 1px #000, 0 1px #000, 0 -1px #000;
+}
+
+.site-footer,
+.entry-footer,
+.entry-title {
+	width: 600px;
+	text-align: center;
+	margin-left: 100px;
+	text-shadow: -1px 0 #000, 0 1px #000, 0 1px #000, 0 -1px #000;
+}
+
+.site-main {
+	color: #FFF;
+}
+
+/*----------PSEUDO CLASSES----------*/
+
+a:link {
+	color: #FFF;
+}
+
+a:hover {
+	color: #FFF;
+}
+
+a:visited {
+	color: #AAA;
+}
+
+a:active {
+	color: #FFF;
+}
